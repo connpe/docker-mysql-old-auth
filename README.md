@@ -4,7 +4,7 @@ Docker build using MySQL 8 distribution but with the old authentication mechanis
 which rely on this mechanism will work with MySQL 8.
 
 Change to /etc/mysql/my.cnf
- *default-authentication-plugin=mysql_native_password
+- default-authentication-plugin=mysql_native_password
  
 Otherwise see the Docker Official Images MySQL page https://hub.docker.com/_/mysql
 
